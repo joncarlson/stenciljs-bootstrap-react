@@ -1,0 +1,14 @@
+{
+  "name": "stenciljs-bootstrap-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/components.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "stenciljs-bootstrap": "0.0.21"
+  }
+}
