@@ -3,11 +3,10 @@
 /* auto-generated react proxies */
 import { createReactComponent } from './react-component-lib';
 
-import { JSX } from 'stenciljs-bootstrap';
+import type { JSX } from 'stenciljs-bootstrap';
 
-import { defineCustomElements, applyPolyfills } from 'stenciljs-bootstrap/loader';
 
-applyPolyfills().then(() => defineCustomElements());
+
 export const BsAlert = /*@__PURE__*/createReactComponent<JSX.BsAlert, HTMLBsAlertElement>('bs-alert');
 export const BsBadge = /*@__PURE__*/createReactComponent<JSX.BsBadge, HTMLBsBadgeElement>('bs-badge');
 export const BsBreadcrumb = /*@__PURE__*/createReactComponent<JSX.BsBreadcrumb, HTMLBsBreadcrumbElement>('bs-breadcrumb');
