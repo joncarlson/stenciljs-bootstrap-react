@@ -3,7 +3,7 @@
 /* auto-generated react proxies */
 import { createReactComponent } from './react-component-lib';
 
-import type { JSX } from 'stenciljs-bootstrap';
+import { JSX } from 'stenciljs-bootstrap';
 
 
 
