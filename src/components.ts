@@ -5,7 +5,11 @@ import { createReactComponent } from './react-component-lib';
 
 import type { JSX } from 'stenciljs-bootstrap';
 
+import { defineCustomElements, applyPolyfills } from 'stenciljs-bootstrap/loader';
 
+applyPolyfills().then(() => defineCustomElements(typeof window !== 'undefined' ? window : null, {
+    resourcesUrl: "/",
+}))
 
 export const BsAlert = /*@__PURE__*/createReactComponent<JSX.BsAlert, HTMLBsAlertElement>('bs-alert');
 export const BsBadge = /*@__PURE__*/createReactComponent<JSX.BsBadge, HTMLBsBadgeElement>('bs-badge');
